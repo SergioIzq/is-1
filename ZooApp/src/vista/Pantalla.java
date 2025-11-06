@@ -78,14 +78,13 @@ public class Pantalla {
                 opc = s.nextInt();
                 System.out.println("\n");
             }
-           
+
         } while (opc != 0);
     }
 
     private void pantallaModificarHorario() {
         System.out.println("Opción elegida: ");
 
-       
     }
 
     private void pantallaGenerarReporte() {
@@ -104,19 +103,11 @@ public class Pantalla {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    
-    
-    
     private void pantallaMenuMaquinas() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    
-    
-    
-    
     private void pantallaListarMorosos() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-
 }
