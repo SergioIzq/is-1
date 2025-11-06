@@ -32,32 +32,32 @@ public class Pantalla {
     private void realizarOpcion(int opc) {
         switch (opc) {
             case 1:
-                pantallaAlquiler();
+                pantallaComprarEntradas();
                 break;
             case 2:
-                pantallaDevolver();
+                pantallaConsultaAnimales();
                 break;
             case 3:
-                pantallaMenuClientes();
+                pantallaAnadirAnimal();
                 break;
             case 4:
-                pantallaMenuMaquinas();
+                pantallaModificarHorario();
                 break;
             case 5:
-                pantallaListarMorosos();
+                pantallaGenerarReporte();
                 break;
         }
     }
 
-    private void pantallaAlquiler() {
+    private void pantallaComprarEntradas() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    private void pantallaDevolver() {
+    private void pantallaConsultaAnimales() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    private void pantallaMenuClientes() {
+    private void pantallaAnadirAnimal() {
         Scanner s = new Scanner(System.in);
         int opc = -1;
 
@@ -76,32 +76,17 @@ public class Pantalla {
                 opc = s.nextInt();
                 System.out.println("\n");
             }
-            if (opc != 0) {
-                realizarOpcionGestionCliente(opc);
-            }
+           
         } while (opc != 0);
     }
 
-    private void realizarOpcionGestionCliente(int opc) {
-        System.out.println("Opción elegida: " + opc);
+    private void pantallaModificarHorario() {
+        System.out.println("Opción elegida: ");
 
-        switch (opc) {
-            case 1:
-                mostrarAltaCliente();
-                break;
-            case 2:
-                mostrarBajaCliente();
-                break;
-            case 3:
-                mostrarModificacionCliente();
-                break;
-            case 4:
-                mostrarConsultaCliente();
-                break;
-        }
+       
     }
 
-    private void mostrarAltaCliente() {
+    private void pantallaGenerarReporte() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
