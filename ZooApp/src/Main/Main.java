@@ -1,3 +1,5 @@
+package Main;
+
 
 import vista.Pantalla;
 
@@ -10,7 +12,7 @@ import vista.Pantalla;
  *
  * @author eps
  */
-public class principal {
+public class Main {
     public static void main (String[]args){
         Pantalla p1=new Pantalla();
         p1.mostrarOpciones();
