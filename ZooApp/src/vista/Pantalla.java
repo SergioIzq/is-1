@@ -8,14 +8,16 @@ public class Pantalla {
         Scanner s = new Scanner(System.in);
         int opc = -1;
         do {
-            System.out.println("\n\n\n\tMenú Principal:\n");
-            System.out.println("\t1. Alquilar");
-            System.out.println("\t2. Devolver");
-            System.out.println("\t3. Gestionar clientes");
-            System.out.println("\t4. Gestionar maquinas");
-            System.out.println("\t5. Listar morosos");
-            System.out.println("\t----------------------");
-            System.out.println("\t\t0. Salir");
+            System.out.println("\t----------------------------------");
+            System.out.println("\t| Menú Principal:                 |");
+            System.out.println("\t----------------------------------");
+            System.out.println("\t| 1. Realizar compra de entradas  |");
+            System.out.println("\t| 2. Consulta sobre animales      |");
+            System.out.println("\t| 3. Anadir animal                |");
+            System.out.println("\t| 4. Modificar horarios           |");
+            System.out.println("\t| 5. Generar reportes             |");
+            System.out.println("\t| 6. Salir                        |");
+            System.out.println("\t----------------------------------");
             System.out.println("\n\n--> Introduzca una opción: ");
             opc = s.nextInt();
             while (opc < 0 || opc > 5) {
